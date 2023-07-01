@@ -1,0 +1,40 @@
+{
+    "chinese": {
+        "main": {
+            "title": "菜单",
+            "subTitle": "唵麼抳缽訥銘吽",
+            "welcome": "欢迎",
+            "donate": "今天捐款",
+            "address": "133-32 41st Rd, 3rd floor, Queens, NY, 11355<br>dharmajoybuddhism@gmail.com<br>(555) 555-5555"
+        },
+        "page": {
+            "welcome": {
+                "title": "欢迎",
+                "content": "<div class='row'><img class='img-responsive bodyImage col-lg-8' src='img/welcome2.png' /><p class='col-lg-4'>貝旁水胡，少它門喜成字什告走朋實放跟，過肉秋山，牠止娘彩車念百亭像共八氣坡波免瓜學方竹：晚母明忍完虎夕，音請午苗跟冬功常點，蝸幫姊祖瓜向羽朋鴨花就兒因王寺文昌爪，千跑士：見笑園後石記加采拍玉弟重借。貝旁水胡，少它門喜成字什告走朋實放跟，過肉秋山，牠止娘彩車念百亭像共八氣坡波免瓜學方竹：晚母明忍完虎夕，音請午苗跟冬功常點，蝸幫姊祖瓜向羽朋鴨花就兒因王寺文昌爪，<br><br>千跑士：見笑園後石記加采拍玉弟重借。貝旁水胡，少它門喜成字什告走朋實放跟，過肉秋山，牠止娘彩車念百亭像共八氣坡波免瓜學方竹：晚母明忍完虎夕，千跑士：見笑園後石記加采拍玉弟重借。貝旁水胡，少它門喜成字什告走朋實放跟，過肉秋山，牠止娘彩車念百亭像共八氣坡波免瓜學方竹：晚母明忍完虎夕，</p></div>"
+            },
+            "donate": {
+                "title": "今天捐款",
+                "content": "<div class='row'><p>布施给那些值得的人，就像播撒在好土里的好种子，会结出丰硕的果实。<br>-<b>佛陀</b> –</p></div>"
+            }
+        }
+    },
+    "english": {
+        "main": {
+            "title": "Menu",
+            "subTitle": "Om mani padme hum",
+            "welcome": "Welcome",
+            "donate": "Donate Today",
+            "address": "133-32 41st Rd, 3rd floor, Queens, NY, 11355<br>dharmajoybuddhism@gmail.com<br>(555) 555-5555"
+        },
+        "page": {
+            "welcome": {
+                "title": "Welcome",
+                "content": "<div class='row'><img class='img-responsive bodyImage col-lg-8' src='img/welcome2.png' /><p class='col-lg-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus urna duis convallis convallis tellus. Blandit volutpat maecenas volutpat blandit aliquam. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Purus ut faucibus pulvinar elementum integer. Scelerisque felis imperdiet proin fermentum leo vel orci porta no.</p></div>"
+            },
+            "donate": {
+                "title": "Donate Today",
+                "content": "<div class='row'><p>Charity bestowed upon those who are worthy of it is like good seed sown on a good soil that yields an abundance of fruits.<br><b>-Buddha</b> –</p></div>"
+            }
+        }
+    }
+}
