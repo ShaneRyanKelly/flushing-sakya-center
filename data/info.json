@@ -5,16 +5,21 @@
             "subTitle": "唵麼抳缽訥銘吽",
             "welcome": "欢迎",
             "donate": "今天捐款",
+            "lineage": "血统",
             "address": "133-32 41st Rd, 3rd floor, Queens, NY, 11355<br>dharmajoybuddhism@gmail.com<br>(555) 555-5555"
         },
         "page": {
             "welcome": {
                 "title": "欢迎",
-                "content": "<div class='row'><img class='img-responsive bodyImage col-lg-8' src='img/welcome2.png' /><p class='col-lg-4'>貝旁水胡，少它門喜成字什告走朋實放跟，過肉秋山，牠止娘彩車念百亭像共八氣坡波免瓜學方竹：晚母明忍完虎夕，音請午苗跟冬功常點，蝸幫姊祖瓜向羽朋鴨花就兒因王寺文昌爪，千跑士：見笑園後石記加采拍玉弟重借。貝旁水胡，少它門喜成字什告走朋實放跟，過肉秋山，牠止娘彩車念百亭像共八氣坡波免瓜學方竹：晚母明忍完虎夕，音請午苗跟冬功常點，蝸幫姊祖瓜向羽朋鴨花就兒因王寺文昌爪，<br><br>千跑士：見笑園後石記加采拍玉弟重借。貝旁水胡，少它門喜成字什告走朋實放跟，過肉秋山，牠止娘彩車念百亭像共八氣坡波免瓜學方竹：晚母明忍完虎夕，千跑士：見笑園後石記加采拍玉弟重借。貝旁水胡，少它門喜成字什告走朋實放跟，過肉秋山，牠止娘彩車念百亭像共八氣坡波免瓜學方竹：晚母明忍完虎夕，</p></div>"
+                "content": "<div class='row'><img class='img-responsive bodyImage col-lg-8' src='img/welcome2.png' /><p class='col-lg-4'>法喜佛教藝術中心長期免費對外開放，旨在歡迎一切有緣善信大德的光臨。</p></div>"
             },
             "donate": {
                 "title": "今天捐款",
-                "content": "<div class='row'><p>布施给那些值得的人，就像播撒在好土里的好种子，会结出丰硕的果实。<br>-<b>佛陀</b> –</p></div>"
+                "content": "<div class='row'><!-- Set up a container element for the button --><div id='paypal-button-container' class='center'></div><script>paypal.Buttons({createOrder() {return fetch('/my-server/create-paypal-order', {method: 'POST',headers: {'Content-Type': 'application/json',},body: JSON.stringify({cart: [{sku: 'YOUR_PRODUCT_STOCK_KEEPING_UNIT',quantity: 'YOUR_PRODUCT_QUANTITY',},],}),}).then((response) => response.json()).then((order) => order.id);},onApprove(data) {return fetch('/my-server/capture-paypal-order', {method: 'POST',headers: {'Content-Type': 'application/json',},body: JSON.stringify({orderID: data.orderID})}).then((response) => response.json()).then((orderData) => {console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));const transaction = orderData.purchase_units[0].payments.captures[0];alert(`Transaction ${transaction.status}: ${transaction.id}\n\nSee console for all available details`);});}}).render('#paypal-button-container');</script><p>布施给那些值得的人，就像播撒在好土里的好种子，会结出丰硕的果实。<br>-<b>佛陀</b> –</p></div>"
+            },
+            "lineage": {
+                "title": "血统",
+                "content": "<div class='row'><p class='col-lg-4'>堪欽貢嘎仁波切是第四十一任薩迦法王的心子，出生在尼泊爾藏傳佛教聖地姆斯坦地區，畢業於薩迦大吉嶺佛學院，仁波切是尼泊爾博卡拉地區吉祥薩迦白瑪措（蓮華湖）學院和寺院的創辦人，同時亦擔任學院院長和寺院住持。<br><br>眾所周知，薩迦派的法脈傳承十分稀有殊勝，堪仁波切是薩迦重要傳承教授師之一。是薩迦度母宮、圓滿宮倆位新任法王的指導老師，仁波切在童年時期即出家修行，接受了在成為大堪布前所需的一切嚴格訓練，在三十餘年中，仁波切接受了尊貴的祿頂堪仁波切等大堪布的教導，他亦從最尊貴的第四十一任薩迦派法座持有者：薩迦崔津法王座下接受了許多珍貴的灌頂與教授。  </p><img class='img-responsive bodyImage col-lg-8' src='img/khenpo.png' /></div>"
             }
         }
     },
@@ -24,16 +29,21 @@
             "subTitle": "Om mani padme hum",
             "welcome": "Welcome",
             "donate": "Donate Today",
+            "lineage": "Lineage",
             "address": "133-32 41st Rd, 3rd floor, Queens, NY, 11355<br>dharmajoybuddhism@gmail.com<br>(555) 555-5555"
         },
         "page": {
             "welcome": {
                 "title": "Welcome",
-                "content": "<div class='row'><img class='img-responsive bodyImage col-lg-8' src='img/welcome2.png' /><p class='col-lg-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus urna duis convallis convallis tellus. Blandit volutpat maecenas volutpat blandit aliquam. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Purus ut faucibus pulvinar elementum integer. Scelerisque felis imperdiet proin fermentum leo vel orci porta no.</p></div>"
+                "content": "<div class='row'><img class='img-responsive bodyImage col-lg-8' src='img/welcome2.png' /><p class='col-lg-4'>The Dharma Joy Buddhist Art Center is open to the public, free of charge, welcoming all good friends and good virtues.</p></div>"
             },
             "donate": {
                 "title": "Donate Today",
-                "content": "<div class='row'><p>Charity bestowed upon those who are worthy of it is like good seed sown on a good soil that yields an abundance of fruits.<br><b>-Buddha</b> –</p></div>"
+                "content": "<div class='row'><!-- Set up a container element for the button --><div id='paypal-button-container' class='center'></div><script>paypal.Buttons({createOrder() {return fetch('/my-server/create-paypal-order', {method: 'POST',headers: {'Content-Type': 'application/json',},body: JSON.stringify({cart: [{sku: 'YOUR_PRODUCT_STOCK_KEEPING_UNIT',quantity: 'YOUR_PRODUCT_QUANTITY',},],}),}).then((response) => response.json()).then((order) => order.id);},onApprove(data) {return fetch('/my-server/capture-paypal-order', {method: 'POST',headers: {'Content-Type': 'application/json',},body: JSON.stringify({orderID: data.orderID})}).then((response) => response.json()).then((orderData) => {console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));const transaction = orderData.purchase_units[0].payments.captures[0];alert(`Transaction ${transaction.status}: ${transaction.id}\n\nSee console for all available details`);});}}).render('#paypal-button-container');</script><p>Charity bestowed upon those who are worthy of it is like good seed sown on a good soil that yields an abundance of fruits.<br><b>-Buddha</b> –</p></div>"
+            },
+            "lineage": {
+                "title": "Lineage",
+                "content": "<div class='row'><p class='col-lg-4'>Khenpo Kunga Rinpoche is the dharma son of the 41st Sakya Trizen. He was born in the Kingdom of Mustang, Nepal’s sanctuary of Tibetan Buddhism, and graduated from the Sakya Darjeeling Buddhist College. Rinpoche is not only the founder of the auspicious Pema Ts’al Sakya Monastic Institute in Pokhara, Nepal, but he also serves as the dean of the college and the abbot of the monastery.<br><br>It is known that the Dharma lineage of Sakya is precious and extraordinary, and Khenpo Rinpoche is one of the prominent Sakya teachers. He is the instructor of the two new kings of the Sakya Tara Palace and the Perfection Palace. Rinpoche became a monk in his childhood, and received all the strict monastic training before becoming a great khenpo. Over the course of 30 years, Rinpoche received teachings from eminent masters such as His Eminence Ludhing Khenchen Rinpoche, and also received many precious empowerments and teachings from His Holiness Sakya Gongma Trizin.</p><img class='img-responsive bodyImage col-lg-8' src='img/khenpo.png' /></div>"
             }
         }
     }

@@ -35,6 +35,7 @@ function loadPage(){
     $(".navbar-brand").text(infos[language]["main"]["title"]);
     $("#welcome").text(infos[language]["main"]["welcome"]);
     $("#donate").text(infos[language]["main"]["donate"]);
+    $("#lineage").text(infos[language]["main"]["lineage"])
     $("#pageTitle").html(infos[language]["page"][page]["title"]);
     $("#pageContent").html(infos[language]["page"][page]["content"]);
 }
